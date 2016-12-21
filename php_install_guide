@@ -1,0 +1,28 @@
+
+#用eclipse的php需要另外設定環境下面的才可以跑
+#所以直接用terminal run , 
+# php test.php  <<===ok
+
+apt-get install php-curl
+apt-get install php-tidy
+
+#設定php curl方法
+
+找到 /etc/php/7.0/cli/php.ini裡面，搜索curl,加入下面參數
+extension=/usr/lib/php/20151012/curl.so
+extension=/usr/lib/php/20151012/tidy.so
+
+
+
+#要用lib_parse的attribute參數時，要加入下列code for php7
+# Tidy for PHP version 7
+if(substr(phpversion(), 0, 1) == 7)
+    {
+    	$config = array(
+    			'uppercase-attributes' => true,
+    			'wrap'                 => 800);
+    	$tidy = new tidy;
+    	$tidy->parseString($input_string, $config, 'utf8');
+    	$tidy->cleanRepair();
+    	$cleaned_html  = tidy_get_output($tidy);
+    }

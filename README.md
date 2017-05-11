@@ -6,21 +6,25 @@
 ****Upload lession 3, 4, 5. --20170419
 
 
+<br><br>
 
-****************************************************************
+************************Note****************************************
 
 
-I bought a book that name is WebbotSpiderScreenScrapers for understanding web crawler, and did some examples.
+I bought a book that name is WebbotSpiderScreenScrapers for understanding web crawler, 
+
+and did some examples for practicing.
 
 
 Here are some examples and notes. 
 
 
 
+<br><br>
 
-****************************************************************
+*************************Reference:***************************************
 
-Reference:
+
 
 http://www.webbotsspidersscreenscrapers.com/
 

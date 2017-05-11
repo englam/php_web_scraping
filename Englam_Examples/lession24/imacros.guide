@@ -1,0 +1,12 @@
+
+start imarco
+
+----windows----
+1. php create_marco.php
+2. start /B "C:\Program Files\Mozilla Firefox\firefox.exe" http://127.0.0.1
+3. ping 127.1.1.1
+4. start /B "C:\Program Files\Mozilla Firefox\firefox.exe" http://run.imacros.net/?m=test.iim
+
+
+----Linux----
+1. system("firefox http://run.imacros.net/?m=test.iim");

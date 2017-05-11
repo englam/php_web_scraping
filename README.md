@@ -5,7 +5,13 @@
 
 ****Upload lession 3, 4, 5. --20170419
 
-
-I was Studied WebbotSpiderScreenScrapers, and did some examples for practicing.
+I bought a book that name is WebbotSpiderScreenScrapers for understanding web crawler, and did some examples.
 
 Here are some examples and notes. 
+
+
+Reference:
+
+http://www.webbotsspidersscreenscrapers.com/
+
+User can download Library to practice the examples in the books.

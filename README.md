@@ -8,7 +8,7 @@
 
 <br><br>
 
-************************Note****************************************
+Note:
 
 
 I bought a book that name is WebbotSpiderScreenScrapers for understanding web crawler, 
@@ -22,7 +22,7 @@ Here are some examples and notes.
 
 <br><br>
 
-*************************Reference:***************************************
+Reference:
 
 
 
